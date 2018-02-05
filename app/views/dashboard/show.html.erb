@@ -1,0 +1,8 @@
+<h1>Dashboard</h1>
+<p>Nice, tu es sur la page secrète.</p>
+
+<% if flash[:success] %>
+  <div class='alert alert-success'><%= flash[:success] %></div>
+<% end %>
+
+<%= link_to 'La vérité est dure à lire, clique ici pour logout.', logout_path %>
