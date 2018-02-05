@@ -1,8 +1,9 @@
-<h1>Dashboard</h1>
-<p>Nice, tu es sur la page secrète.</p>
-
 <% if flash[:success] %>
   <div class='alert alert-success'><%= flash[:success] %></div>
 <% end %>
+<div align=center><p>Voici le secret de l'Univers:</p>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/91xM2xjZbJL.jpg" width="400px"/>
+</div>
+
 
 <%= link_to 'La vérité est dure à lire, clique ici pour logout.', logout_path %>

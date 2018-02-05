@@ -2,6 +2,8 @@ class SessionsController < ApplicationController
   skip_before_action :require_valid_user!, except: [:destroy]
 
   def new
+  end
+  def new
     @user = User.new
   end
 

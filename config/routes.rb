@@ -1,16 +1,4 @@
 Rails.application.routes.draw do
-  get 'users/new'
-
-  get 'users/create'
-
-  get 'sessions/new'
-
-  get 'sessions/create'
-
-  get 'sessions/destroy'
-
-  get 'dashboard/show'
-
   # on met le dashboard en view par défaut
   root 'dashboard#show'
 
@@ -18,6 +6,7 @@ Rails.application.routes.draw do
   # on détermine les URL login et logout
   get 'login', to: 'sessions#new'
   get 'logout', to: 'sessions#destroy'
+  delete 'delete', to: 'sessions#delete'
 
   resources :sessions, only: [:create]
   resources :users, only: [:new, :create]
