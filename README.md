@@ -1,24 +1,7 @@
-# README
+# Secret
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Pour le github, tout est bon sauf 5.2 que je n'ai pas pu terminer à cause de problèmes récurrents de versions en conflits avec Heroku, pas de message d'erreur mais ça ne tourne pas ....
 
-Things you may want to cover:
+Ca tourne cependant en local.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+J'ai par contre mis à jour le projet de la semaine dernière sur pinterest au niveau de la gestion des users et c'est accessible là https://desolate-caverns-79675.herokuapp.com/

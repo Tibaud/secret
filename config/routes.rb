@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   root 'dashboard#show'
   get 'users/new'
-  # on détermine les URL login et logout
   get 'login', to: 'sessions#new'
   get 'logout', to: 'sessions#destroy'
 
