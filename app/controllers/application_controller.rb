@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
   # si user=nil, on redirige vers la page de login
   def require_valid_user!
     if current_user.nil?
-      flash[:error] = 'Vous devez être connecté pour accéder à cette page!'
+      flash[:error] = 'Vous devez être connecté pour accéder au secret!'
       redirect_to login_path
     end
   end
